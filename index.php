@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROYECTO DEMO GIT</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
-
-</head>
+<?php 
+    include 'header.html';
+?>
 <body>
  <div>   
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -20,17 +14,20 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="dvNosotros">Sobre Nosotros</a>
-              <a class="nav-link" href="#">Galeria</a>
+              <a class="nav-link" href="#dvNosotros">Sobre Nosotros</a>
+              <a class="nav-link" href="galeria.html">Galeria</a>
               <a class="nav-link" href="#">contacto</a>
             </div>
           </div>
         </div>
-      </nav>   
+      </nav>
     </div>
-    <iframe src="header.html" id="header"></iframe>
+
     <div id="dvNosotros">
-        <iframe src="" ></iframe>
+        <iframe src="sobre-nosotros.html" ></iframe>
+    </div>
+    <div id="dvNosotros">
+        <iframe src="sobre-nosotros.html" ></iframe>
     </div>
     <br>
     <h1>Ejercicio de GIT</h1>
